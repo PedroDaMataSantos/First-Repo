@@ -128,6 +128,6 @@ public class Main {
 
         }
         
-        
+       ler.close(); 
     }
 }
