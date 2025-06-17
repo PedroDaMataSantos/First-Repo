@@ -29,6 +29,7 @@ public class Main003 {
              System.out.printf("X[%d] = %d\n",i,X[i][j]);
             
          }
+         ler.close();
         
         
     }
