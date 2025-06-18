@@ -1,6 +1,4 @@
 # First Repo
 
-Still learning how to use gitHub.
-This repo is just a test.
-Created during a video lesson.
-This line was be added through the website.
+This repository showcases my learning progress with Git,GitHub and programming language.
+Here I solve some Beecrowd exercises and develop small projects to demonstrate my evolution.
