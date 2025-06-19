@@ -1,6 +1,18 @@
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
 
 import java.util.Scanner;
+
+/**
+ *
+ * @author Pedro da Mata  <pescariaurbana@gmail.com>
+ * @date 16/06/2025
+ * @brief Class Main
+ */
 
 public class Main004 {
     public static void main(String[] args) {
