@@ -373,9 +373,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         float num1 = Float.parseFloat(tfPrimeiroNumero.getText());
         float num2 = Float.parseFloat(tfSegundoNumero.getText());
 
-        if (num2 == 0) { // Ainda é uma boa prática manter esta checagem para evitar erro de divisão por zero
+        if (num2 == 0) { 
             lbResultado.setText("Erro: Divisão por zero.");
-            // Não salva no CSV se for um erro de cálculo que impede o resultado
             return;
         }
 
