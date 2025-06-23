@@ -13,25 +13,29 @@ import java.util.Scanner;
  * @brief Class Main
  */
 public class Main003 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner ler =new Scanner (System.in);
-        int i,j=0;
-        int [][]X=new int [10][1];
+        int i;
+        int []X=new int [10];
         for(i=0;i<10;i++){
-            X[i][j]= ler.nextInt();
+            X[i]= ler.nextInt();
         }
          for(i=0;i<10;i++){
-            if(X[i][j]<=0){
-                X[i][j]=1;
+            if(X[i]<=0){
+                X[i]=1;
             }
         }
          for(i=0;i<10;i++){
-             System.out.printf("X[%d] = %d\n",i,X[i][j]);
+             System.out.printf("X[%d] = %d\n",i,X[i]);
             
          }
          ler.close();
         
         
     }
+
 
 }
