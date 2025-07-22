@@ -35,5 +35,6 @@ public class Main005 {
             System.out.printf("N[%d] = %d\n",i,N[i]);
         }
 
+        ler.close();
     }
 } 

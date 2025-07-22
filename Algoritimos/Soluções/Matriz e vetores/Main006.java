@@ -42,5 +42,6 @@ public class Main006 {
             float med = s / k;
             System.out.printf("%.1f\n", med);
         }
+        ler.close();
     }
 }

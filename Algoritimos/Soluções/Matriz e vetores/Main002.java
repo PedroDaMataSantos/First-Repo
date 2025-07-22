@@ -43,6 +43,7 @@ public class Main002{
 
 
         }
+        ler.close();
 
     }
 }

@@ -53,6 +53,7 @@ public class Main004 {
         } else if (O.equals("M")) { 
             System.out.printf("%.1f\n", soma / count); 
         }
+        ler.close();
 
       
     }
